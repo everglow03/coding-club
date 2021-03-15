@@ -1,0 +1,44 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: #0074d0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  top: 0;
+  color: whitesmoke;
+  padding: 50px;
+}
+
+.sadface{
+  font-size: 100px;
+  font-weight: 500;
+}
+.bluescreen{
+  margin-top: 50px;
+  margin-bottom: 170px;
+  width:70%;
+  font-size: 25px;
+  font-weight: 300;
+}
+.info{
+  display: flex;
+  justify-content: left;
+}
+.info__qrcode{
+  width: 50px;
+  margin-right: 20px;
+}
+.info__bio{
+  width:70%;
+  font-size: 17px;
+  font-weight: 300;
+}
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
